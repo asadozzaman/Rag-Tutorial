@@ -1,0 +1,18 @@
+rag-mastery-roadmap.jsx
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# FAISS index
+faiss_*/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
