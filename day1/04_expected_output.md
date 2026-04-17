@@ -198,8 +198,8 @@ Your exact text will differ (LLMs are non-deterministic), but check for:
 
 | Error | Cause | Fix |
 |-------|-------|-----|
-| `AuthenticationError` | Missing or invalid API key | Check `.env` has `OPENAI_API_KEY=sk-...` |
-| `ModuleNotFoundError: langchain_openai` | Package not installed | `pip install langchain-openai` |
+| `RuntimeError: Missing API key` | `GEMINI_API_KEY` was not set | Check `.env` has `GEMINI_API_KEY=...` |
+| `ModuleNotFoundError: langchain_google_genai` | Package not installed | `pip install langchain-google-genai` |
 | `ModuleNotFoundError: faiss` | FAISS not installed | `pip install faiss-cpu` |
 | `ConnectionError` on WebBaseLoader | Can't reach Wikipedia | Check internet; try a different URL |
 | `bs4` / `lxml` not found | Missing HTML parser | `pip install beautifulsoup4 lxml` |

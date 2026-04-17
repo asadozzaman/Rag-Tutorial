@@ -1,7 +1,8 @@
 langchain
-langchain-openai
+langchain-google-genai
 langchain-community
 faiss-cpu
 python-dotenv
 beautifulsoup4
 lxml
+requests
