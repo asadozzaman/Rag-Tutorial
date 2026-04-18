@@ -205,7 +205,7 @@ if __name__ == "__main__":
     if os.path.exists(index_path):
         vectorstore = load_vectorstore(index_path)
     else:
-        raw_docs = load_wikipedia_article("https://en.wikipedia.org/wiki/Quantum_computing")
+        raw_docs = load_wikipedia_article("https://arxiv.org/pdf/2604.15312")
         chunks = chunk_documents(raw_docs, chunk_size=500, chunk_overlap=50)
         vectorstore = create_vectorstore(chunks, save_path=index_path)
 

@@ -1,0 +1,7 @@
+RAG systems depend on two major phases: ingestion and retrieval.
+
+During ingestion, documents are loaded, cleaned, chunked, embedded, and stored in a vector index.
+During retrieval, a user query is embedded and matched against stored chunks for semantic similarity.
+
+If chunking is poor, retrieval quality drops even when the embedding model is strong.
+That is why document loading and chunk design are foundational parts of any RAG system.

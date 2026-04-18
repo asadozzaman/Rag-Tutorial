@@ -1,0 +1,5 @@
+question,answer,topic
+What is chunking?,Chunking means splitting a large document into smaller units that can be embedded and retrieved more effectively.,chunking
+Why does overlap help?,Overlap preserves context near chunk boundaries so retrieval does not miss connected ideas.,chunking
+What metadata should I keep?,Preserve source page section row and URL metadata because it improves traceability and filtering.,metadata
+Why can bad chunking hurt RAG?,Bad chunking can fragment meaning or dilute relevance which makes retrieval less accurate.,retrieval
