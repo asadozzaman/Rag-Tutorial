@@ -1,0 +1,25 @@
+query_id,query,doc_id,doc_text,topic,is_relevant
+q1,How do I stop my AI from making things up?,d1,RAG reduces hallucination by grounding answers in retrieved context from trusted documents.,rag,1
+q1,How do I stop my AI from making things up?,d2,Chunk overlap helps keep important context connected across chunk boundaries.,chunking,0
+q1,How do I stop my AI from making things up?,d3,Vector stores compare query embeddings against document embeddings for similarity search.,embeddings,0
+q1,How do I stop my AI from making things up?,d4,The best pizza dough uses slow fermentation and high heat.,cooking,0
+q2,Why should I normalize embeddings before cosine search?,d3,Vector stores compare query embeddings against document embeddings for similarity search.,embeddings,1
+q2,Why should I normalize embeddings before cosine search?,d5,Normalization scales vectors so cosine similarity focuses on direction instead of vector length.,embeddings,1
+q2,Why should I normalize embeddings before cosine search?,d6,CSV rows should keep row numbers as metadata for traceability.,metadata,0
+q2,Why should I normalize embeddings before cosine search?,d7,Neural networks train with gradients and optimization loops.,ml,0
+q3,What happens if I switch embedding models?,d8,When switching embedding models you must re-embed every document and rebuild the vector index.,embeddings,1
+q3,What happens if I switch embedding models?,d1,RAG reduces hallucination by grounding answers in retrieved context from trusted documents.,rag,0
+q3,What happens if I switch embedding models?,d9,Batching embedding requests improves throughput and reduces ingestion time.,embeddings,0
+q3,What happens if I switch embedding models?,d4,The best pizza dough uses slow fermentation and high heat.,cooking,0
+q4,How can I speed up indexing a large knowledge base?,d9,Batching embedding requests improves throughput and reduces ingestion time.,embeddings,1
+q4,How can I speed up indexing a large knowledge base?,d10,Embedding caches prevent recomputing vectors for unchanged chunks.,embeddings,1
+q4,How can I speed up indexing a large knowledge base?,d11,Markdown headers preserve section context when splitting technical documents.,chunking,0
+q4,How can I speed up indexing a large knowledge base?,d7,Neural networks train with gradients and optimization loops.,ml,0
+q5,How do citations help users trust an answer?,d6,CSV rows should keep row numbers as metadata for traceability.,metadata,1
+q5,How do citations help users trust an answer?,d12,Source page URL and section metadata make citations and debugging easier.,metadata,1
+q5,How do citations help users trust an answer?,d2,Chunk overlap helps keep important context connected across chunk boundaries.,chunking,0
+q5,How do citations help users trust an answer?,d4,The best pizza dough uses slow fermentation and high heat.,cooking,0
+q6,What chunking method works well for technical markdown docs?,d11,Markdown headers preserve section context when splitting technical documents.,chunking,1
+q6,What chunking method works well for technical markdown docs?,d2,Chunk overlap helps keep important context connected across chunk boundaries.,chunking,0
+q6,What chunking method works well for technical markdown docs?,d5,Normalization scales vectors so cosine similarity focuses on direction instead of vector length.,embeddings,0
+q6,What chunking method works well for technical markdown docs?,d7,Neural networks train with gradients and optimization loops.,ml,0
