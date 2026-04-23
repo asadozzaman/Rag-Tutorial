@@ -1,0 +1,11 @@
+doc_id,category,author,year,level,text
+doc01,docs,samira,2024,beginner,Chroma is a friendly local vector database for prototyping semantic search and metadata filtering.
+doc02,docs,omar,2025,intermediate,FAISS supports fast exact and approximate vector search and is widely used in local RAG experiments.
+doc03,search,nora,2025,advanced,HNSW graph indexes often give a strong recall versus latency tradeoff for approximate nearest neighbor search.
+doc04,search,samira,2024,intermediate,BM25 ranks documents using keyword statistics and remains essential for exact term matching.
+doc05,finance,liam,2025,beginner,Finance reports benefit from metadata filtering by year author and category before semantic retrieval.
+doc06,finance,nora,2024,advanced,Hybrid retrieval can merge BM25 and vector search using reciprocal rank fusion for better overall coverage.
+doc07,infra,nora,2025,advanced,Production vector search systems should persist indexes to disk and monitor memory use as the corpus grows.
+doc08,infra,omar,2023,intermediate,IVF-style clustering speeds up search by probing only a subset of vector lists instead of the whole index.
+doc09,docs,samira,2025,intermediate,API documentation retrieval works best when section metadata and semantic search are combined.
+doc10,product,liam,2024,beginner,User-facing search should let people choose semantic keyword or hybrid modes depending on the task.
