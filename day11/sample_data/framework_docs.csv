@@ -1,0 +1,9 @@
+doc_id,title,text
+python_intro,Python Overview,"Python is a general-purpose programming language created by Guido van Rossum. It is widely used for web applications, scripting, data work, and automation."
+python_frameworks,Python Web Frameworks,"Python's main web frameworks include Django, Flask, and FastAPI."
+django_doc,Django Framework,"Django is a batteries-included framework with an ORM, admin panel, authentication system, and many built-in features."
+flask_doc,Flask Framework,"Flask is lightweight and flexible, giving developers more control over application structure."
+fastapi_doc,FastAPI Framework,"FastAPI is modern, async-first, fast, and auto-generates OpenAPI documentation for APIs."
+javascript_intro,JavaScript Overview,"JavaScript is the dominant language for interactive frontend development and is also used on the server through Node.js."
+javascript_frameworks,JavaScript Frontend Frameworks,"JavaScript frontend frameworks include React, Vue, and Angular."
+react_doc,React Framework,"React uses a component model for building interactive user interfaces."
