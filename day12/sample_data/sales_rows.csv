@@ -1,0 +1,7 @@
+product,region,revenue,quarter,year
+Widget A,North,150000,Q1,2024
+Widget A,South,120000,Q1,2024
+Widget B,North,200000,Q1,2024
+Widget A,North,175000,Q2,2024
+Widget B,South,180000,Q2,2024
+Widget B,North,220000,Q2,2024
