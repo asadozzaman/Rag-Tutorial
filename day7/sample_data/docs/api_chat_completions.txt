@@ -1,0 +1,1 @@
+The /v1/chat/completions endpoint accepts a messages array, optional temperature, and model name. The response includes generated assistant content and token usage. Streaming mode returns incremental deltas instead of a single final response.

@@ -1,0 +1,1 @@
+RAG systems combine retrieval and generation so answers can be grounded in retrieved evidence instead of only model memory. Nodes are chunked units with metadata and links back to source documents. Vector indices are useful for semantic retrieval when users ask conceptual questions.

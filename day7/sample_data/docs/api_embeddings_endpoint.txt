@@ -1,0 +1,1 @@
+The /v1/embeddings endpoint accepts input text and returns an embeddings array with vector values. Clients must send an Authorization header and JSON request body. Response objects include model name usage metadata and embedding vectors.

@@ -1,0 +1,16 @@
+query,expected_route
+How do I reset my password?,faq_support
+Where can I find my invoice?,faq_support
+What happens if a digital download is defective?,faq_support
+How does a query engine work in a RAG system?,technical_docs
+What are nodes in LlamaIndex?,technical_docs
+Why combine vector search and keyword search?,technical_docs
+What does the /v1/embeddings endpoint return?,api_reference
+What fields can I send to /v1/chat/completions?,api_reference
+How do I authenticate against the embeddings API?,api_reference
+Explain semantic retrieval architecture,technical_docs
+Can support help recover my account email access?,faq_support
+What does streaming mode return in chat completions?,api_reference
+How are source nodes used in answers?,technical_docs
+Can I get a refund for a purchase made last week?,faq_support
+What JSON body does the embeddings endpoint expect?,api_reference

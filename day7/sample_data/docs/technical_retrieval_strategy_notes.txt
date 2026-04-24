@@ -1,0 +1,1 @@
+Vector search is strong for semantic meaning, while keyword search is strong for exact terminology. A good production retrieval system often combines both. Query engines retrieve nodes and synthesize answers from those nodes.
