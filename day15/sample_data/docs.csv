@@ -1,0 +1,9 @@
+title,text,source,doc_type,category
+Semantic Caching,"Semantic caching improves latency and lowers cost by reusing answers for repeated or near-duplicate questions. It is one of the fastest production wins in RAG systems.",production.md,markdown,semantic caching
+Hybrid Retrieval,"Hybrid retrieval combines semantic retrieval with keyword search so the system gets both broad recall and exact lexical matching.",retrieval.md,markdown,hybrid retrieval
+Reranking for Precision,"Cross-encoder reranking improves precision by rescoring the broad candidate set and moving the most relevant chunks to the top.",precision.md,markdown,reranking
+Conversation Memory,"History-aware retrieval rewrites follow-up questions into standalone questions so conversational RAG can resolve references like it and its.",memory.md,markdown,memory
+CRAG Self-Correction,"CRAG evaluates retrieval quality, refines ambiguous queries, and falls back when the system lacks grounded knowledge.",advanced.md,markdown,crag
+FastAPI Deployment,"FastAPI is a strong deployment layer for RAG because it supports async endpoints, validation, streaming, and clear operational boundaries.",deploy.md,markdown,fastapi
+Evaluation Metrics,"RAG evaluation should track faithfulness, relevance, citation quality, latency, and cache hit rate so improvements are measurable.",evaluation.md,markdown,evaluation
+FAQ Precision Tip,"Q: How do I improve RAG precision? A: Use better chunking, hybrid retrieval, and reranking before changing the model.",faq.md,faq,reranking

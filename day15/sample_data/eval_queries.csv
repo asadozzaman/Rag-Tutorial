@@ -1,0 +1,4 @@
+question,expected_contains
+How can I improve RAG precision?,hybrid retrieval|reranking
+How does semantic caching help latency?,semantic caching|latency
+What does CRAG do when retrieval is weak?,crag|retrieval
