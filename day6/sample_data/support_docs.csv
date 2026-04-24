@@ -1,0 +1,9 @@
+doc_id,title,source,topic,text
+d1,Refund Policy,policy.md,billing,Refunds are available within 30 days of purchase. Digital products are non-refundable after download.
+d2,Billing FAQ,faq.md,billing,Customers can request refunds by emailing billing@company.com. Refund processing usually takes 5 to 7 business days.
+d3,Defective Product Exception,terms.md,billing,In cases of defective digital products full refunds are guaranteed regardless of download status.
+d4,Old Subscription FAQ,old_faq.md,subscriptions,All subscription purchases are final sale and cannot be refunded.
+d5,New Subscription Policy,subscription_policy.md,subscriptions,Subscriptions may be refunded within 14 days if the service was not heavily used.
+d6,Password Reset,auth.md,account,To reset your password click Forgot Password on the sign-in page and follow the email link.
+d7,API Rate Limits,api_limits.md,api,The public API allows 100 requests per minute on the basic plan and 1000 requests per minute on the enterprise plan.
+d8,Shipping Support,shipping.md,orders,Physical orders can be tracked from the orders page and usually arrive within 3 to 5 business days.
