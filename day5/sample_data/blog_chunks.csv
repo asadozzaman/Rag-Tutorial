@@ -1,0 +1,15 @@
+doc_id,parent_id,title,url,category,author,year,level,text
+c01,p1,Ensemble Retrieval in Practice,https://example.com/p1,retrieval,samira,2025,intermediate,Ensemble retrieval combines BM25 keyword search with semantic vector search so the system can catch both exact terms and broader meaning.
+c02,p1,Ensemble Retrieval in Practice,https://example.com/p1,retrieval,samira,2025,intermediate,Weighted fusion often works better than choosing a single retriever because one method covers the weaknesses of the other.
+c03,p2,MMR for Diverse Context,https://example.com/p2,retrieval,nora,2024,advanced,MMR reduces redundancy by rewarding relevance while penalizing documents that are too similar to already selected results.
+c04,p2,MMR for Diverse Context,https://example.com/p2,retrieval,nora,2024,advanced,Diversity-aware retrieval is useful when top-k results repeat the same point and waste the context window.
+c05,p3,Parent Child Retrieval Guide,https://example.com/p3,retrieval,omar,2025,advanced,Parent-child retrieval embeds smaller child chunks but returns a larger parent section so the generator sees richer context.
+c06,p3,Parent Child Retrieval Guide,https://example.com/p3,retrieval,omar,2025,advanced,This pattern gives precise retrieval during search while keeping enough surrounding detail for accurate answering.
+c07,p4,Self Query Filters,https://example.com/p4,search,nora,2025,advanced,Self-query retrieval separates semantic intent from filters such as year author level and category.
+c08,p4,Self Query Filters,https://example.com/p4,search,nora,2025,advanced,For example a user might ask for advanced Nora posts from 2025 about filters or retrieval and the system should parse both meaning and filters.
+c09,p5,Reranking for Precision,https://example.com/p5,reranking,liam,2025,advanced,Reranking scores query document pairs jointly after broad first-stage retrieval and usually improves final precision.
+c10,p5,Reranking for Precision,https://example.com/p5,reranking,liam,2025,advanced,A common production pattern is fetch ten results quickly then rerank down to the best three for higher precision.
+c11,p6,BM25 and Exact Match,https://example.com/p6,search,samira,2024,beginner,BM25 remains strong for exact term matching acronyms error codes and product names that vector search may blur.
+c12,p6,BM25 and Exact Match,https://example.com/p6,search,samira,2024,beginner,Keyword retrieval is especially useful when users type exact phrases that appear in technical documents.
+c13,p7,Retrieval Bottlenecks,https://example.com/p7,rag,omar,2025,advanced,If retrieval recall is weak the generator never sees the right evidence so the final answer quality stays low.
+c14,p7,Retrieval Bottlenecks,https://example.com/p7,rag,omar,2025,advanced,Fix retrieval before tuning generation prompts or changing the LLM because generation cannot rescue missing context.

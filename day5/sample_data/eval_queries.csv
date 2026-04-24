@@ -1,0 +1,7 @@
+query_id,query,expected_parent_id
+q1,How do I blend keyword and semantic retrieval?,p1
+q2,Why does MMR help when retrieved chunks look repetitive?,p2
+q3,How can I return larger sections after retrieving small chunks?,p3
+q4,Show advanced Nora search articles from 2025 about filters,p4
+q5,What step improves precision after broad first-stage retrieval?,p5
+q6,Why should I fix retrieval before tuning generation?,p7
