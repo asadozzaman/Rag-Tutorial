@@ -1,0 +1,21 @@
+query,expected_mode,expected_route,relevant_ids
+How do I reset my password?,simple,ACCOUNT,account_password
+What does the embeddings endpoint return?,simple,TECHNICAL,tech_api_embeddings
+Why does reranking improve result quality?,simple,CONCEPTUAL,concept_rerank
+Why are my answers missing relevant sources?,simple,TROUBLESHOOTING,troubleshoot_recall|troubleshoot_citations
+Compare clustered and graph-based vector indices for speed and RAM tradeoffs,complex,TECHNICAL,tech_ivf|tech_hnsw|troubleshoot_memory
+What is the difference between chunking for precision and chunking for context?,complex,CONCEPTUAL,concept_chunking
+Why is my vector search slow?,simple,TROUBLESHOOTING,troubleshoot_latency|tech_ivf
+How can hypothetical answer generation rescue vague retrieval?,complex,CONCEPTUAL,concept_hyde|troubleshoot_recall
+How do I delete a workspace?,simple,ACCOUNT,account_workspace
+What causes low recall in retrieval systems?,simple,TROUBLESHOOTING,troubleshoot_recall
+Explain step-back prompting for retrieval,simple,CONCEPTUAL,concept_stepback
+Which search structure is lighter on RAM at scale?,complex,TECHNICAL,tech_ivf|tech_hnsw|troubleshoot_memory
+My results miss key evidence after filtering and chunking,complex,TROUBLESHOOTING,troubleshoot_recall|troubleshoot_citations|concept_chunking
+Is SSO on every plan?,simple,ACCOUNT,account_pricing
+Help, it is broken,ambiguous,TROUBLESHOOTING,troubleshoot_latency|troubleshoot_recall
+What should I tune when clustered search misses good matches?,complex,TECHNICAL,tech_ivf|troubleshoot_recall
+Why do wrong citations appear in answers?,simple,TROUBLESHOOTING,troubleshoot_citations
+What is HyDE?,simple,CONCEPTUAL,concept_hyde
+Need help with billing,ambiguous,ACCOUNT,account_refund|account_pricing
+When should I add a second-stage ranker instead of trusting first-pass retrieval?,complex,CONCEPTUAL,concept_rerank|troubleshoot_citations
