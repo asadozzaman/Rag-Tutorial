@@ -1,0 +1,7 @@
+doc_id,category,title,text
+rev_q1,finance,Q1 Revenue Summary,"Company revenue in Q1 2024 was $5.2M, up 15% year over year."
+team_eng,people,Engineering Team Size,"The engineering team has 45 members across 6 squads."
+churn_q1,finance,Churn KPI,"Customer churn rate decreased from 8.0% to 5.5% in Q1."
+deals_q1,sales,Average Deal Size,"Average deal size increased to $25,000 in Q1 2024."
+gross_margin,finance,Gross Margin,"Gross margin improved to 68% in Q1 2024."
+support_headcount,people,Support Organization,"The support team has 18 specialists across onboarding and success."
