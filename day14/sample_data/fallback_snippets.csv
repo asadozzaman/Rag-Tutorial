@@ -1,0 +1,4 @@
+topic,text
+weather,"Today's weather forecast is simulated here: mild temperature, partial clouds, and light wind."
+transformers,"Transformers rely on self-attention to weigh token relationships across a sequence."
+web fallback,"Fallback web search can recover useful context when the local knowledge base is missing the answer."

@@ -1,0 +1,9 @@
+doc_id,title,text,topic,entities
+doc_1,LangChain Basics,"LangChain is a framework for building LLM applications with chains, agents, and retrieval workflows.",frameworks,LangChain|LLM|RAG
+doc_2,LangChain and FAISS,"LangChain often uses FAISS as a vector index backend for document retrieval and similarity search.",frameworks,LangChain|FAISS|RAG
+doc_3,FAISS Overview,"FAISS is Facebook's library for efficient similarity search over dense vectors.",retrieval,FAISS|Vector Search
+doc_4,RAG Grounding,"RAG reduces hallucination by grounding model responses in retrieved documents.",retrieval,RAG|Hallucination
+doc_5,Transformers Primer,"Transformers use self-attention mechanisms for sequence modeling and modern NLP tasks.",models,Transformers|Self-Attention|NLP
+doc_6,GraphRAG Note,"GraphRAG combines knowledge graphs with retrieval so relationship questions can follow explicit entity links.",advanced,GraphRAG|Knowledge Graph|RAG
+doc_7,RAPTOR Note,"RAPTOR builds hierarchical summaries over document clusters so retrieval can happen at different abstraction levels.",advanced,RAPTOR|Summary Tree|Retrieval
+doc_8,CRAG Note,"CRAG evaluates retrieval quality, refines ambiguous queries, and falls back when knowledge is missing.",advanced,CRAG|RAG|Fallback Search

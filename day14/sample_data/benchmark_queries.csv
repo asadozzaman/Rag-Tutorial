@@ -1,0 +1,6 @@
+query,expected_action
+What is LangChain used for in LLM apps?,use_docs
+How do self-healing retrieval systems work?,refine_and_reretrieve
+What is the weather today?,fallback_search
+How does CRAG handle missing knowledge?,use_docs
+Explain GraphRAG relationship retrieval,use_docs
