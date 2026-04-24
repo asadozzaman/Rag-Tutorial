@@ -1,0 +1,7 @@
+chunk_id,title,text,source
+doc_1,FastAPI Overview,"FastAPI is a modern Python web framework for building APIs with validation, async handlers, and automatic docs.",kb
+doc_2,RAG Overview,"RAG systems combine retrieval with generation so answers stay grounded in external knowledge.",kb
+doc_3,Vector Search,"Vector databases enable fast similarity search over embedded document chunks.",kb
+doc_4,Caching Guide,"Caching reduces latency and API costs significantly. Exact caches and semantic caches both matter in production.",kb
+doc_5,Rate Limiting,"Rate limiting protects a shared RAG service from burst traffic and abusive clients.",kb
+doc_6,Observability,"Production observability means tracing retrieval, generation, latency, token usage, and cache hit rate.",kb
